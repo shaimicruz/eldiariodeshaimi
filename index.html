@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Diario de Shaimi 🎀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>El Diario de Shaimi 🎀</h1>
+    <p>Un espacio para hablar de estilo, maquillaje y cosas lindas</p>
+</header>
+
+<nav>
+    <ul>
+        <li><button onclick="mostrarSeccion('sobre-mi')" id="btn-sobre-mi" class="activo">Sobre mí</button></li>
+        <li><button onclick="mostrarSeccion('ropa')" id="btn-ropa">Ropa</button></li>
+        <li><button onclick="mostrarSeccion('zapatos')" id="btn-zapatos">Zapatos</button></li>
+        <li><button onclick="mostrarSeccion('accesorios')" id="btn-accesorios">Accesorios</button></li>
+        <li><button onclick="mostrarSeccion('maquillaje')" id="btn-maquillaje">Maquillaje</button></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="sobre-mi" class="seccion-contenido activa">
+    <h2>Conóceme ✨</h2>
+    <img src="img\ft.webp" class="foto-perfil">
+    <h3 style="text-align:center;">Shaimi Cruz</h3>
+    <p style="text-align:center;">
+        <em>Hola! Soy una estudiante. Me encanta la moda, crear combinaciones de ropa y compartir mis ideas. Este es mi proyecto de programación y estoy muy feliz de mostrarlo.</em>
+    </p>
+
+    <div class="formulario-contacto">
+        <h3>Escríbeme 💌</h3>
+        <form id="form-contacto">
+            <label>Nombre</label>
+            <input type="text" id="nombre" required>
+
+            <label>Mensaje</label>
+            <textarea id="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<section id="ropa" class="seccion-contenido">
+    <h2>Ropa 👗</h2>
+    <ul class="lista-productos">
+        <li><em>Vestido elegante</em></li> <img src="img\Vestido amarillo elegante.jpg" width="300" height="300">
+        
+        <p>Un vestido sofisticado diseñado para resaltar la silueta femenina con un toque de distinción. Ideal para eventos formales, cenas especiales o celebraciones donde quieras destacar con estilo y elegancia.</p>
+
+        <li><em>Blazer blanco</em></li> <img src="img\blazer blanco.jpg" width="300" height="300"> 
+
+        <p>Un blazer moderno y versátil que aporta un aire fresco y refinado a cualquier outfit. Perfecto para combinar con looks casuales o formales, convirtiéndose en una pieza clave en tu armario.</p>
+
+        <li><em>Pantalón de tela</em></li> <img src="img\Pantalon de tela.png" width="300" height="300">
+
+        <p>Pantalón confeccionado en tela ligera y cómoda, ideal para un look profesional sin perder el estilo. Su diseño clásico lo hace perfecto tanto para la oficina como para ocasiones casuales elegantes.</p>
+
+        <li><em>Conjunto rosa</em></li> <img src="img\conjunto rosa de falda.jpg" width="300" height="300">
+
+        <p>Un conjunto femenino y encantador que combina delicadeza y tendencia. Perfecto para lucir un estilo chic y moderno, ideal para salidas, reuniones o eventos de día.</p>
+
+        <li><em>Gabardina</em></li> <img src="img\Gabardina.jpg" width="300" height="300">
+
+        <p>Prenda clásica y atemporal que brinda elegancia y protección en días frescos. Su diseño sofisticado la convierte en el complemento ideal para elevar cualquier outfit.</p>
+
+        <p><strong>encontrar mas ropa de este estilo en estos lugares:</strong></p>
+       <ol> <li> <a href="https://www.zara.com/do/">Zara</a></li>
+       <li> <a href="https://us.shein.com/">Shein</a></li>
+        </ol>
+    </ul>
+</section>
+
+<section id="zapatos" class="seccion-contenido">
+    <h2>Zapatos 👠</h2>
+    <ul class="lista-productos">
+        <li>Tacones nude</li>
+        <img src="img\tacones.jpg" width="300" height="300">
+        
+        <P>Elegantes y versátiles, los tacones nude estilizan la figura y combinan fácilmente con cualquier outfit. Son el complemento perfecto para ocasiones formales o looks sofisticados.</P>
+
+        <li>Mocasines</li>
+
+         <img src="img\mocasines.jpg" width="300" height="300">
+        
+        <P>Calzado cómodo y clásico que aporta un estilo casual elegante. Ideales para el día a día, brindan comodidad sin perder el toque chic.</P>
+        <li>Sandalias</li>
+         <img src="img\sandalias.jpg" width="300" height="300">
+        
+        <P>Frescas y ligeras, perfectas para climas cálidos. Disponibles en distintos estilos, desde casuales hasta elegantes, se adaptan a cualquier ocasión.</P>
+        <li>Botas</li>
+         <img src="img\botas.jpg" width="300" height="300">
+        
+        <P>Un básico imprescindible que combina estilo y funcionalidad. Perfectas para looks modernos en temporadas frescas, aportando personalidad a cualquier conjunto.</P>
+        <li>Kitten heels</li>
+         <img src="img\tacones ro.jpg" width="300" height="300">
+        
+        <P>Tacones bajos y delicados que ofrecen elegancia con mayor comodidad. Ideales para quienes buscan un estilo refinado sin sacrificar confort.</P>
+        <ol> <li> <a href="https://www.famousfootwear.com/">Famous Footwear</a></li>
+        </ol>
+    </ul>
+</section>
+
+<section id="accesorios" class="seccion-contenido">
+    <h2>Accesorios ✨</h2>
+    <ul class="lista-productos">
+        <li>Argollas doradas</li>
+
+         <img src="img\argollas doradas.jpg" width="300" height="300">
+        
+        <P>Un accesorio clásico y atemporal que aporta brillo y sofisticación a cualquier look. Perfectas para complementar tanto outfits casuales como elegantes.</P>
+
+
+        <li>Reloj clásico</li>
+
+         <img src="img\reloj.jpg" width="300" height="300">
+        
+        <P>Un reloj elegante de diseño sencillo que nunca pasa de moda. Ideal para quienes buscan un toque de distinción y puntualidad con estilo.</P>
+
+        <li>Bolso pequeño</li>
+        <img src="img\bolso.jpg" width="300" height="300">
+        
+        <P>Compacto y práctico, este bolso es perfecto para llevar lo esencial sin perder el estilo. Ideal para salidas, eventos o looks minimalistas.</P>
+
+        <li>Cinturón fino</li>
+
+    <img src="img\cinturon.jpg" width="300" height="300">
+        
+        <P>Un accesorio delicado que define la silueta y añade un toque elegante a cualquier conjunto. Perfecto para vestidos, pantalones o faldas.</P>
+
+        <li>Cadenita</li>
+        <img src="img\cadena.jpg" width="300" height="300">
+        
+        <P>Sutil y femenina, esta cadenita aporta un detalle delicado al cuello. Ideal para usar sola o combinar con otros accesorios para un look moderno.</P>
+
+        <ol> <li> <a href="us.shein.com">Shein</a></li>
+        </ol>
+    </ul>
+</section>
+
+<section id="maquillaje" class="seccion-contenido">
+    <h2>Maquillaje 🤎</h2>
+    <ul class="lista-productos">
+        <li>Makeup</li>
+        <img src="img\makeup.jpg " width="500" height="500">
+        <li>Bronzer</li>
+        <img src="img\bronzer.jpg" width="300" height="300">
+        
+        <P>Producto ideal para dar un efecto bronceado y cálido al rostro. Aporta dimensión y un look saludable, perfecto para resaltar los contornos de forma natural.</P>
+
+        <li>Blush</li>
+        <img src="img\blush.jpg" width="300" height="300">
+        
+        <P>El toque perfecto de color para las mejillas. El blush aporta frescura y un aspecto juvenil, realzando la belleza natural del rostro.</P>
+
+        <li>Iluminador</li>
+        <img src="img\iluminador.jpg" width="300" height="300">
+        
+        <P>img\iluminador.jpg</P>
+        <li>Lip combo</li>
+        <img src="img\labial.jpg" width="300" height="300">
+        
+        <P>n conjunto de productos para labios que incluye delineador, labial y gloss o brillo. El lip combo ayuda a definir, dar color y volumen a los labios, logrando un acabado más elegante, duradero y perfectamente combinado. Ideal para un look moderno y completo.</P>
+
+        <li>Sombra</li>
+        <img src="img\sombras.jpg" width="300" height="300">
+        
+        <P>Sombras para ojos que permiten crear desde looks suaves hasta maquillajes más intensos. Ideales para resaltar la mirada con diferentes colores y estilos.</P>
+
+    <ol> <li> <a href="charlottetilbury.com">charlottetilbury.com</a></li>
+       <li> <a href="rhodeskin.com">rhodeskin.com</a></li>
+        </ol>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>2026 - Shaimi Cruz</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

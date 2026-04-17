@@ -1,0 +1,97 @@
+:root {
+    --fondo: #FAF3E0;
+    --texto: #4A3B32;
+    --primario: #8B5A43;
+    --secundario: #D4B895;
+    --blanco: #fff;
+}
+
+body {
+    background: var(--fondo);
+    font-family: Georgia, serif;
+    margin: 0;
+    color: var(--texto);
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: var(--blanco);
+}
+
+nav {
+    background: var(--primario);
+    text-align: center;
+    padding: 10px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.activo {
+    border-bottom: 2px solid white;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.seccion-contenido {
+    display: none;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.seccion-contenido.activa {
+    display: block;
+}
+
+.lista-productos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-productos li {
+    margin: 10px 0;
+}
+
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.formulario-contacto {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background: var(--primario);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--texto);
+    color: white;
+}
